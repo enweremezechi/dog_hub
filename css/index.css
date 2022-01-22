@@ -1,0 +1,227 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*body*/
+body {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: inter;
+    font-style: normal;
+    overflow-x: hidden;
+}
+/*header*/
+header {
+    background: #FFFFFF;
+    border-bottom: 1px solid #E3E7EE;
+}
+/* container */
+#container {
+    max-width: 1100px;
+    padding: 10px;
+    margin: auto;
+}
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    flex-wrap: wrap;
+}
+/* logo */
+
+/*header*/
+/* showcase */
+.showcase{
+    margin-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.image-cards{
+    height: 800px;
+}
+/* heading */
+.heading{
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.logos, .heading h1 {
+   text-align: center;
+   font-family: Inter;
+   font-size: 96px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 116px;
+   letter-spacing: 0em;
+
+}
+
+/* center buttons */
+.center-button {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    flex-wrap: wrap;
+}
+/* three buttons */
+.center-button .set-three select {
+    height: 48px;
+    width: 173px; 
+    margin-right: 10px;
+}
+
+.center-button .right-btn button {
+    height: 46px;
+    color: #FFFFFF;
+    background-color: #333;
+   padding: 0px 10px;
+}
+/* images-cards */
+.cards .text h1 {
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 50px;
+
+}
+.cards .card-1, .card-2,.card-3{
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* card-1 */
+.card-1 span:nth-child(1){
+    padding-right: 15px;
+}
+.card-1 span:nth-child(3) {
+    padding-left: 15px;
+}
+/* card-2 */
+.card-2 span:nth-child(1){
+    padding-right: 15px;
+}
+.card-2 span:nth-child(3) {
+    padding-left: 15px;
+}
+/* card-3 */
+.card-3 span:nth-child(1){
+    padding-right: 15px;
+}
+.card-3 span:nth-child(3) {
+    padding-left: 15px;
+}
+
+/* footer */
+footer {
+    padding-top: 30px;
+}
+
+.foot-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.foot-cards .head{
+    padding-bottom: 20px;
+}
+
+footer p {
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+font:14px;
+}
+
+footer h3 {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 20px;
+    font-size:18px;
+}
+
+.infor {
+    width: 317px;
+}
+
+.foot-4 {
+    padding-left: 15px;
+}
+.foot-4 #email-btn{
+    height: 48px;
+    width: 304px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    border: #E3E7EE 2px solid;
+    padding-left: 15px;
+}
+
+.foot-4 span svg {
+    position: relative;
+    left: -50px;
+    top: 16px;
+}
+.foot-cards{
+    border-bottom: 1px solid #E3E7EE;
+    padding-bottom: 30px;
+}
+/* last-footer */
+#last-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.last-foot-content,.last-address{
+    display: flex;
+}
+
+/* last address */
+#last-footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.last-foot-content {
+    align-items: center;
+}
+
+.lang-ad select {
+height: 40px;
+width: 304px;
+border-radius: 10px;
+border: #E3E7EE 2px solid;
+}
+
+.lang-ad select  {
+   padding-right: 20px;
+}
+.line-two,.line-three {
+    margin-left: 30px;
+    border-bottom: 1px solid #343434;
+}
+.lang-ad {
+padding-right: 50px;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+}
+.follow span svg,.lang-ad select {
+    margin-top: 5px;
+}
